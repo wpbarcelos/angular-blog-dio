@@ -3,7 +3,7 @@
 Este é um projeto de blog desenvolvido em Angular, como parte dos meus estudos na Digital Innovation One.
 
 ## Demo
-Confira a demo do projeto: [https://wpbarcelos.github.io/angular-blog-dio/](https://wpbarcelos.github.io/angular-blog-dio/)
+Confira a demo do projeto: [https://animated-basbousa-3b8e62.netlify.app/](https://animated-basbousa-3b8e62.netlify.app/)
 
 ## Descrição
 Este projeto é um simples blog construído com Angular. Ele incorpora conceitos importantes, como componentes, serviços, roteamento e consumo de API para exibir postagens.
