@@ -1,0 +1,21 @@
+<div>
+  <a href="{{ news.link }}" target="_blank">
+    <img
+      src="{{ news.image_url }}"
+      alt="{{ news.description }}"
+      class="w-full h-128 object-contain"
+    />
+  </a>
+  <div class="flex gap-4 flex-col align-start justify-start">
+    <h1 class="text-4xl font-bold">
+      <a href="{{ news.link }}">
+        {{ news.title }}
+      </a>
+    </h1>
+    <div class="block p-2">
+      <span class="bg-slate-300 p-2 mt-2 rounded">
+        {{ news.category[0] }}
+      </span>
+    </div>
+  </div>
+</div>

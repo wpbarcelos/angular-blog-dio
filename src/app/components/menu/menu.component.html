@@ -1,0 +1,11 @@
+<div class="w-full">
+  <div class="flex flex-row justify-center p-3 bg-gray-800">
+    <ul class="flex gap-6 text-white">
+      <li *ngFor="let link of links">
+        <a class="p-2 text-white font-bold text-lg hover:underline" routerLink="{{link.href}}">
+          {{ link.label}}
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
